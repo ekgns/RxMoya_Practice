@@ -10,6 +10,10 @@ target 'RxMoya_practice' do
   target 'RxMoya_practiceTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Moya-ObjectMapper/RxSwift'
+    pod 'RxOptional'
+    pod 'RxCocoa'
+    pod 'RxSwift'
   end
 
   target 'RxMoya_practiceUITests' do
