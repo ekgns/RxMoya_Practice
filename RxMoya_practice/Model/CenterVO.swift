@@ -11,7 +11,7 @@ import ObjectMapper
 
 
 
-struct CenterMap:Mappable {
+struct Center:Mappable {
     var address: String?
     var centerName: String?
     var centerType: String?

@@ -12,7 +12,6 @@ import ObjectMapper
 
 // 제공하는 기능 열거형으로 만든다
 enum Service {
-    
     case getCenterList(page: Int, perPage: Int)
 }
 

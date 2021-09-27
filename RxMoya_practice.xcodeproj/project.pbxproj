@@ -19,6 +19,7 @@
 		AB3D8C4826EA212C00B5A922 /* CenterVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D8C4726EA212C00B5A922 /* CenterVO.swift */; };
 		AB3D8C4D26EA266D00B5A922 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D8C4C26EA266D00B5A922 /* Service.swift */; };
 		AB3D8C4F26EA268400B5A922 /* target.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D8C4E26EA268400B5A922 /* target.swift */; };
+		ABECDE6D27019FC900917153 /* CenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDE6C27019FC900917153 /* CenterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AB3D8C4726EA212C00B5A922 /* CenterVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVO.swift; sourceTree = "<group>"; };
 		AB3D8C4C26EA266D00B5A922 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		AB3D8C4E26EA268400B5A922 /* target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = target.swift; sourceTree = "<group>"; };
+		ABECDE6C27019FC900917153 /* CenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewModel.swift; sourceTree = "<group>"; };
 		B924253989E5952BD8CD9884 /* Pods-RxMoya_practice-RxMoya_practiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya_practice-RxMoya_practiceUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxMoya_practice-RxMoya_practiceUITests/Pods-RxMoya_practice-RxMoya_practiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AB3D8C4B26EA263500B5A922 /* ViewController */,
+				ABECDE6B27019FA500917153 /* ViewModel */,
 				AB3D8C4A26EA262600B5A922 /* View */,
 				AB3D8C4926EA260900B5A922 /* Model */,
 				AB3D8C4626EA211C00B5A922 /* HTTP */,
@@ -159,6 +162,14 @@
 				AB2C7A3226E25E8600368DCE /* ViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ABECDE6B27019FA500917153 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABECDE6C27019FC900917153 /* CenterViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		DBC1CB29E30581FF3E2C631E /* Pods */ = {
@@ -294,6 +305,7 @@
 				AB2C7A3326E25E8600368DCE /* ViewController.swift in Sources */,
 				AB3D8C4426EA20A300B5A922 /* Cell.swift in Sources */,
 				AB2C7A2F26E25E8600368DCE /* AppDelegate.swift in Sources */,
+				ABECDE6D27019FC900917153 /* CenterViewModel.swift in Sources */,
 				AB2C7A3126E25E8600368DCE /* SceneDelegate.swift in Sources */,
 				AB3D8C4D26EA266D00B5A922 /* Service.swift in Sources */,
 			);

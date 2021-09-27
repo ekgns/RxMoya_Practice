@@ -10,9 +10,7 @@ import Moya
 
 extension Service: TargetType {
     var baseURL: URL {
-        var baseURL: URL {
             return URL(string: "https://api.odcloud.kr")!
-        }
     }
     
     var path: String {
@@ -26,6 +24,7 @@ extension Service: TargetType {
         switch self {
         case .getCenterList(page: _, perPage: _):
             return .get
+        }
     }
     
     var sampleData: Data {
@@ -43,5 +42,5 @@ extension Service: TargetType {
         return ["Authorization": "Infuser N28F7A1MFhXnb5cIYDYz3XH4Rea8ZV3kT9aVpy8dTTXb3huQ9WYBvOzqa11VnXaPrW3OMqqhaOv3AhrFl06HMA==", "Content-type" : "application/json;charset=UTF-8"]
     }
     
-    
 }
+
